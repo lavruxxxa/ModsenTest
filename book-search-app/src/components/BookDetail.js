@@ -18,7 +18,7 @@ const BookDetail = () => {
     axios
       .get(url)
       .then(response => {
-        setBook(response.data.items[0]);
+        setBook(response.data);
       })
       .catch(error => {
         console.log(error);

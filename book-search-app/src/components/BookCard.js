@@ -2,10 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const BookCard = ({ book }) => {
-  const id = book;
+  const { id } = book;
   return (
     <div className="book-card-item">
-      <Link to={`/books/${id}`}>
+      <Link to={`/ModsenTest/books/${id}`}>
         {book.volumeInfo.imageLinks && (
           <img src={book.volumeInfo.imageLinks.thumbnail} alt={book.volumeInfo.title} />
         )}
