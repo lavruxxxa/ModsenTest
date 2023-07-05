@@ -1,0 +1,49 @@
+  .book-detail {
+    position: relative;
+    margin-top: 6%;
+    margin-left: 6%;
+    background-color: rgb(198, 143, 16);
+    border: 3px solid black;
+    width: 88%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px black;
+  }
+
+  .book-detail p {
+    margin: 5px;
+    text-align: left;
+  }
+  
+  .book-detail img {
+    width: 265px;
+    height: 400px;
+    margin: 5px;
+  }
+
+  .detail-row {
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
+
+  .detail-col {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 70%;
+    padding: 30px;
+  }
+  
+  .back {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    text-decoration: none;
+    color: black;
+  }
